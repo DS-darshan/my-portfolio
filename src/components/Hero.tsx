@@ -156,11 +156,11 @@ function Hero() {
           <p className="hero-copy hero-stagger hero-stagger-4">Turning complex systems into useful AI products through LLMs, retrieval, and intelligent agents.</p>
           <div className="hero-actions hero-stagger hero-stagger-5">
             <a className="button button-primary magnetic" href="#projects">View my work <ArrowRight size={17} /></a>
-            <a className="button button-quiet magnetic" href="/darshan_patil_ai_engineer_resume.pdf" target="_blank" rel="noreferrer"><Download size={16} /> Download resume</a>
+            <a className="button button-quiet magnetic" href={`${import.meta.env.BASE_URL}darshan_patil_ai_engineer_resume.pdf`} target="_blank" rel="noreferrer"><Download size={16} /> Download resume</a>
           </div>
         </div>
         <div className="hero-portrait-wrap" data-reveal>
-          <img className="hero-portrait" src="/images/Polished%20Studio%20Portrait%20of%20a%20Smiling%20Professional.png" alt="Portrait of Darshan Patil" />
+          <img className="hero-portrait" src={`${import.meta.env.BASE_URL}images/Polished%20Studio%20Portrait%20of%20a%20Smiling%20Professional.png`} alt="Portrait of Darshan Patil" />
           <div className="portrait-frame" aria-hidden="true" />
           <div className="portrait-caption"><span>AI / ML ENGINEERING</span><span>6.4 YEARS EXPERIENCE</span></div>
         </div>
